@@ -1,0 +1,20 @@
+1.  $ mkdir answers
+2.  $ > answers/answers.txt
+3.  $ vim answers/answers.txt
+4.  $ pwd
+    /Users/evankeleti/Github/assignment-1
+5.  The flag -a will make ls list hidden files.    
+6.  To list files outside of the current directory, use 'ls [file]', where the [file] argument is either a file to be listed or a directory that contains the files to be listed.
+7.  rm is a dangerous command because unless the interactive option -i is specified, it will permanently delete files without asking for confirmation. For example, if rm was used on a 
+    directory with the recursive option -r, and -i was omitted, then rm would permanently delete the directory and all its contents. If the directory or one of its subdirectories contained
+    an important file that was unnoticed, it would be lost forever unless a backup existed somewhere.
+8.  $ mkdir answers/results
+9.  $ vim answers/results/my_script.sh
+10. $ chmod 755 answers/results/my_script.sh
+11. I never left the assignment-1 directory but if I was in answers I would do:
+    $ cd ../assignment-1-main-main/data
+12. $ wc -w * | sort -nr | head -n 3 | tail -n 1
+13. $ for csv in *.csv; do ../../answers/results/my_script.sh $csv ; done
+14. $ mkdir unzipped-files; unzip -d unzipped-files/ '*.zip'
+15. $ rm *.zip
+16. $ cp unzipped-files/*_2* ../../answers/results/     
